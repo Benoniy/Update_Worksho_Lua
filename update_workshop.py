@@ -32,7 +32,7 @@ try:
     os.remove("garrysmod/lua/autorun/server/workshop.lua")
     os.remove("garrysmod/lua/autorun/workshop.lua")
 except:
-  print("Generating workshop.lua...")
+    print("Generating workshop.lua...")
 
 fs = open("garrysmod/lua/autorun/server/workshop.lua", "w+")
 f = open("garrysmod/lua/autorun/workshop.lua", "w+")
